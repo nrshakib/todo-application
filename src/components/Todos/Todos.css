@@ -1,0 +1,39 @@
+.status-button {
+  margin-top: 10px;
+  margin-left: 150px;
+}
+.allButton,
+.activeButton,
+.completeButton {
+  height: 30px;
+  width: 10rem;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.activeButton {
+  background-color: yellow;
+}
+.activeButton:hover {
+  background-color: rgb(22, 22, 146);
+  color: white;
+}
+.allButton {
+  background-color: rgb(107, 174, 200);
+}
+.allButton:hover {
+  background-color: rgb(22, 22, 146);
+  color: white;
+}
+.completeButton {
+  background-color: rgb(15, 137, 15);
+  color: white;
+}
+.completeButton:hover {
+  background-color: rgb(22, 22, 146);
+  color: white;
+}
